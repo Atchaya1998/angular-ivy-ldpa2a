@@ -36,15 +36,7 @@ export class TicketbookingComponent implements OnInit {
     // alert(JSON.stringify(this.model));
   }
 
-  // deleteTicketbooking(id: any) {
-  //   alert(JSON.stringify(this.model));
-  //   this.ticketbookingService
-  //     .deleteTicketbookingService(id)
-  //     .subscribe((data) => {
-  //       this.getAllTicketbooking();
-  //     });
-  //   alert(JSON.stringify(this.model));
-  // }
+  
   deleteTicketbooking(id: any) {
     alert(id);
     this.ticketbookingService
